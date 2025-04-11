@@ -1,0 +1,300 @@
+.nav-container{
+    background-color:rgb(234, 227, 33);
+    display:flex;
+}
+.web-title{
+    font-family: sans-serif;
+    padding:20px;
+ font-size:20px;
+    color:green; 
+   
+   
+}
+
+.nav-items{
+    display:flex;
+    flex-wrap:wrap;
+    list-style-type: none;
+   margin-top: 37px ;
+  
+    gap:60px;
+    background-color:rgb(234, 227, 33);
+   
+}
+   
+.nav-list a 
+{
+        text-decoration:none;
+        color:rgb(59, 59, 59)
+    }  
+
+.nav-list{
+     
+    list-style-type: none;
+    font-size:14px;
+    height:0px;
+    font-family:sans-serif;
+   
+  }
+
+
+
+
+
+.img-text{
+    margin-right:40%;
+    font-family: sans-serif;
+}
+
+.decoration{
+    margin-bottom:200px;
+}
+.more-info {
+    margin:15px;
+    font-weight:bold;
+    font-family:sans-serif;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    color: white;
+    height: 50vh;
+    width: 50vw;
+    transition: 0.5s; 
+ background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+  
+}
+.more-info:hover{
+    background-position: bottom;
+    transform:scale(1.07);
+    
+}
+
+
+.decoration-img {
+
+    background-image: url("asset 33.jpeg");
+
+}
+
+.party-img {
+    background-image: url("asset 35.jpeg");
+}
+
+.catering-img {
+    background-image: url("asset 3.jpeg");
+}
+
+.wedding-img {
+    background-image: url("asset 44.jpeg");
+}
+
+.tents-img {
+    background-image: url("asset 30.jpeg");
+}
+
+.events-img {
+    background-image: url("asset 2.jpeg");
+}
+.dj-img{
+    background-image: url("asset 9.jpeg");
+     }
+/* //++++++++++++++++++++    decoration    ++++++++++++++++++++++ */
+.packages{
+    display:grid;
+   width:93vw;
+    justify-content:center;
+    text-align:center;
+    margin-bottom:200px;
+  
+}
+.packages-info{
+    width:80vw;
+    
+}
+.packages-heading{
+    color:rgb(19, 90, 244)
+}
+
+table,th,td{
+    /* border:1px  black solid;  */
+}
+th,td{
+    width:fit-content;
+    color:aliceblue;
+    background-color:rgb(113, 171, 221)
+}
+
+th{
+    height:8vh;
+    font-size:130%
+}
+td{
+    height:5vh;
+    font-size:110%;
+}
+#area-feet{
+    background-color: transparent;
+    border-color: transparent;
+    color:white;
+}
+#btn-cost{
+    background-color: transparent;
+    border-color: transparent;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+.more2-info{
+        border:0px solid;
+        border-radius:10px;
+        margin-bottom: 150px;
+        background-color:   white;
+        padding-bottom: 40px;
+        margin:1px 40px;
+        margin-bottom:250px;
+       
+    }
+    .other-info-container{
+        display:flex;
+        border:0px solid;
+        border-radius:10px;
+        justify-content:center;
+       
+        margin:5px;
+        background-color: rgb(230, 235, 240);
+    }
+    .other1-info-container{
+        display:grid;
+        text-align:center;
+        justify-content: center;
+        row-gap: 10px;
+      
+    }
+    .other2-info-container{
+        display:grid;
+        text-align:center;
+        justify-content: center;
+        row-gap: 10px;
+       
+      
+    }
+    .other-info-heading{
+        font-family: sans-serif;
+        display:flex;
+        justify-content:center; 
+       
+        color:rgb(208, 3, 3);
+        font-size:50px;
+    }
+    .other-info{
+        
+        width: 37vw;
+        height:25px;
+        color:white;
+        display:grid;
+        align-items:center;
+        font-family:sans-serif;
+        margin:0px 20px;
+       
+    }
+    
+    .a{
+        margin-top:10px;
+    }
+    .b{
+        margin-bottom:10px;
+    }
+    .o1{
+        background-color: rgb(208, 3, 3);
+    }
+    .o2{
+        background-color:  rgb(180, 6, 6);
+    }
+
+
+
+
+    
+
+
+
+
+
+
+    .main-big-footer{
+        background-image: url("asset 52.jpeg");
+        width:98vw;
+        height:70vh;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        
+       
+    }
+    .bottom-container-1{
+     margin-right:30px;   
+    }
+    .bottom-paragraph{
+      color:white;
+      text-decoration: none;
+    font-size: 13px;
+    line-height:25px;
+    font-family: sans-serif;
+    
+    }
+    .bottom-paragraph:hover{
+        color:blue;
+    }
+    
+     .back-footer{
+    
+    width:40vw;
+    } 
+    .client-form{
+       
+       width:40vw;
+    }  
+    .field-set{
+        width:55%;
+        color:white;
+    }
+    legend{
+        text-align: center;
+    }
+    label{
+        display:inline-block;
+        width:130px;
+    }
+    .input-client{
+       
+    }
+    .submit-client{
+        justify-content: center;
+        display:flex;
+        background-color: transparent;
+        color:white;
+    }
+    
+    .footer{
+       margin:0px;
+          
+      }
+      .footer-heading{
+          background-color: black;
+          color:goldenrod;
+          font-family:sans-serif; 
+          font-size:13px;
+          display:grid;
+          justify-content:center; 
+          padding:2px;
+      }
+    
